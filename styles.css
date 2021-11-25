@@ -48,6 +48,8 @@
 
 
 
+
+
 .login-button{
     padding:14px 32px 14px 32px; 
     border: 3px solid #66D3FA;
@@ -200,8 +202,32 @@ body{
 .quote{
     grid-area: box1;
     justify-self: center;
-    width: 50%;
+    width: 60%;
+    
+   
+    
 }
+
+
+
+
+
+q::before{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    
+    
+  
+    
+}
+q::after{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+
+}
+
+
 .quote p{
     font-family: Lato, sans-serif;
     font-size: 21px;
@@ -251,6 +277,8 @@ body{
 .explore-but{
     grid-area: c42;
     margin-left: 100px;
+    margin-top: -100px;
+    
 
  
 
@@ -293,8 +321,11 @@ body{
 .footer{
     grid-area: x2;
     display: flex;
+    width: 53.3vw;
+    height: 58.2%;
+    margin-left:96px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 .some-last-text{
@@ -370,15 +401,25 @@ body{
     
 }
 
+.loginButton{
+    width: 100%;
+}
+
     .container1{
 
         display: flex;
         flex-direction: column;
  
         align-items:center ;
+       
         
   
 
+    
+    }
+    .spring-is-here{
+        width:360px;
+        height: 136px;
     }
   
 
@@ -418,12 +459,14 @@ body{
         align-items: center;
         width:20%;
         transform: translate(100%);
+        z-index: 3;
     }
     .nav-links a{
         text-decoration: none;
         color: #6b8897;;
     }
 
+  
     .nav-active{
         transform: translateX(0%);
     }
@@ -502,7 +545,7 @@ body{
         row-gap: 10px;
         margin-left: 30px;
         margin-top: 30px;
-        width: 30%;
+  
         
 
     }
@@ -516,6 +559,7 @@ body{
     .explore-but{
         grid-area: a2;
         margin-left: 0px;
+        margin-top: 0px;
         justify-self: center;
     }
     .code-image{
@@ -535,7 +579,7 @@ body{
         }
 
         .c5{
-            height: 1500px;
+            height: 1160px;
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 60% 30% 5% 5%;
@@ -551,11 +595,22 @@ body{
            display: flex;
            flex-direction: column;
            margin-left:30px;
-           
+           row-gap: 30px;
+
+           width: 358px;
+           height: 681px;;
         
           
        
             
+        }
+        .acme-logo{
+        
+
+        }
+
+        .footer p{
+            line-height: 30px;
         }
         
 
